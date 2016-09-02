@@ -1,5 +1,12 @@
 
-
+##Contents
+* [Talks](#Talks)
+* [Articles](#articles)
+* [Sites/Blogs](#sitesblogs)
+* [Tools](#tools)
+* [Libraries](#libraries)
+* [Books](#books)
+* [About](#about)
 
 ##Talks
 
@@ -7,9 +14,9 @@
 * C++Now 2016 [Timur Doumler: C++ Performance in Practice: Align, Vectorise, Cache, Jump!](https://www.youtube.com/watch?v=c-hZpChQKe0) ([slides](https://github.com/boostcon/cppnow_presentations_2016/blob/master/03_friday/cpp_performance_in_practice_align_vectorise_cache_jump.pdf))
 * C++Now 2016 [David Stone: Exceptional Performance](https://www.youtube.com/watch?v=0_FQIDEf7_Q)
 * C++Now 2016 [Jason Turner: Practical Performance Practices](https://www.youtube.com/watch?v=lNnBExDoNSQ)
+* code::dive conference 2014 [Scott Meyers: Cpu Caches and Why You Care](https://www.youtube.com/watch?v=WDIkqP4JbkE)([slides](http://www.aristeia.com/TalkNotes/codedive-CPUCachesHandouts.pdf))
 * code::dive conference 2015 [Andrei Alexandrescu - Writing Fast Code I](https://www.youtube.com/watch?v=vrfYLlR8X8k) ([slides](http://codedive.pl/wp-content/uploads/2016/01/FastCode-handouts.pdf))
 * code::dive conference 2015 [Andrei Alexandrescu - Writing Fast Code II](https://www.youtube.com/watch?v=9tvbz8CSI8M) ([slides](http://codedive.pl/wp-content/uploads/2016/01/FastCode-handouts.pdf))
-* code::dive conference 2014 [Scott Meyers: Cpu Caches and Why You Care](https://www.youtube.com/watch?v=WDIkqP4JbkE)([slides](http://www.aristeia.com/TalkNotes/codedive-CPUCachesHandouts.pdf))
 * CppCon 2014 [Andrei Alexandrescu "Optimization Tips - Mo' Hustle Mo' Problems"](https://www.youtube.com/watch?v=Qq_WaiwzOtI)
 * CppCon 2014 [Mike Acton "Data-Oriented Design and C++" ](https://www.youtube.com/watch?v=rX0ItVEVjHc)
 * CppCon 2014 [Chandler Carruth "Efficiency with Algorithms, Performance with Data Structures"](https://www.youtube.com/watch?v=fHNmRkzxHWs)
@@ -64,7 +71,7 @@
 * Optimized C++: Proven Techniques for Heightened Performance, Kurt Guntheroth
 
 ##About
-This list was started by Bartlomiej Filipek. If you like to help please read CONTRIBUTING.md instructions and just make a pull request to this repo.
+This list was started by Bartlomiej Filipek ([@fenbf](https://twitter.com/fenbf)). If you like to help please read CONTRIBUTING.md instructions and just make a pull request to this repo.
 
 ##License
 
