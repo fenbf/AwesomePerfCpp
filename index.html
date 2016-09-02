@@ -1,57 +1,65 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en-us">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta charset="UTF-8">
     <title>Awesome Perf Cpp by fenbf</title>
-
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/github-light.css">
-    <meta name="viewport" content="width=device-width">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
   </head>
   <body>
-    <div class="wrapper">
-      <header>
-        <h1>Awesome Perf Cpp</h1>
-        <p>A curated list of awesome C/C++ performance resources: talks, articles, books, libraries, tools libraries, sites. Inspired by awesome.</p>
+    <section class="page-header">
+      <h1 class="project-name">Awesome Perf Cpp</h1>
+      <h2 class="project-tagline">A curated list of awesome C/C++ performance resources: talks, articles, books, libraries, tools libraries, sites. Inspired by awesome.</h2>
+      <a href="https://github.com/fenbf/AwesomePerfCpp" class="btn">View on GitHub</a>
+      <a href="https://github.com/fenbf/AwesomePerfCpp/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/fenbf/AwesomePerfCpp/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
 
-        <p class="view"><a href="https://github.com/fenbf/AwesomePerfCpp">View the Project on GitHub <small>fenbf/AwesomePerfCpp</small></a></p>
+    <section class="main-content">
+      <h2>
+<a id="contents" class="anchor" href="#contents" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contents</h2>
 
+<ul>
+<li><a href="#Talks">Talks</a></li>
+<li><a href="#articles">Articles</a></li>
+<li><a href="#sitesblogs">Sites/Blogs</a></li>
+<li><a href="#tools">Tools</a></li>
+<li><a href="#libraries">Libraries</a></li>
+<li><a href="#books">Books</a></li>
+<li><a href="#about">About</a></li>
+</ul>
 
-        <ul>
-          <li><a href="https://github.com/fenbf/AwesomePerfCpp/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/fenbf/AwesomePerfCpp/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/fenbf/AwesomePerfCpp">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
-        <h2>
+<h2>
 <a id="talks" class="anchor" href="#talks" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Talks</h2>
 
 <ul>
-<li>Andrei Alexandrescu - Writing Fast Code - code::dive Conference 2015, Wroclaw
-
-<ul>
-<li><a href="https://www.youtube.com/watch?v=vrfYLlR8X8k">part I</a></li>
-<li><a href="https://www.youtube.com/watch?v=9tvbz8CSI8M">part II</a></li>
-</ul>
+<li>ACCU 2016 <a href="https://www.youtube.com/watch?v=AxnotgLql0k">'Fastware' - Andrei Alexandrescu</a>
 </li>
-<li>
-<a href="https://www.youtube.com/watch?v=MvFj8qo1iuA">Andrei Alexandrescu, Writing Quick Code in C++, Quickly</a> - Going Native 2013</li>
-<li>
-<a href="https://www.youtube.com/watch?v=AxnotgLql0k">'Fastware' - Andrei Alexandrescu</a> - ACCU 2016</li>
-<li><p><a href="https://www.youtube.com/watch?v=Qq_WaiwzOtI">Andrei Alexandrescu "Optimization Tips - Mo' Hustle Mo' Problems"</a> - CppCon 2014</p></li>
-<li><p><a href="https://www.youtube.com/watch?v=nXaxk27zwlk">Chandler Carruth, "Tuning C++: Benchmarks, and CPUs, and Compilers! Oh My!"</a> - CppCon 2015</p></li>
-<li>
-<a href="https://www.youtube.com/watch?v=fHNmRkzxHWs">Chandler Carruth "Efficiency with Algorithms, Performance with Data Structures"</a> - CppCon 2014</li>
-<li><p><a href="https://www.youtube.com/watch?v=FnGCDLhaxKU">Understanding Compiler Optimization - Chandler Carruth - Opening Keynote Meeting C++ 2015</a></p></li>
-<li><p><a href="https://www.youtube.com/watch?v=rX0ItVEVjHc">Mike Acton "Data-Oriented Design and C++" </a> - CppCon 2014</p></li>
-<li><p><a href="https://www.youtube.com/watch?v=WDIkqP4JbkE">Scott Meyers: Cpu Caches and Why You Care</a> - code::dive Conference 2014</p></li>
-<li><p><a href="https://www.youtube.com/watch?v=zWxSZcpeS8Q">Bryce Adelstein-Lelbach “Benchmarking C++ Code"</a> - CppCon 2015</p></li>
-<li><p><a href="https://www.youtube.com/watch?v=c-hZpChQKe0">Timur Doumler: C++ Performance in Practice: Align, Vectorise, Cache, Jump!</a></p></li>
+<li>C++Now 2016 <a href="https://www.youtube.com/watch?v=c-hZpChQKe0">Timur Doumler: C++ Performance in Practice: Align, Vectorise, Cache, Jump!</a> (<a href="https://github.com/boostcon/cppnow_presentations_2016/blob/master/03_friday/cpp_performance_in_practice_align_vectorise_cache_jump.pdf">slides</a>)</li>
+<li>C++Now 2016 <a href="https://www.youtube.com/watch?v=0_FQIDEf7_Q">David Stone: Exceptional Performance</a>
+</li>
+<li>C++Now 2016 <a href="https://www.youtube.com/watch?v=lNnBExDoNSQ">Jason Turner: Practical Performance Practices</a>
+</li>
+<li>code::dive conference 2014 <a href="https://www.youtube.com/watch?v=WDIkqP4JbkE">Scott Meyers: Cpu Caches and Why You Care</a>(<a href="http://www.aristeia.com/TalkNotes/codedive-CPUCachesHandouts.pdf">slides</a>)</li>
+<li>code::dive conference 2015 <a href="https://www.youtube.com/watch?v=vrfYLlR8X8k">Andrei Alexandrescu - Writing Fast Code I</a> (<a href="http://codedive.pl/wp-content/uploads/2016/01/FastCode-handouts.pdf">slides</a>)</li>
+<li>code::dive conference 2015 <a href="https://www.youtube.com/watch?v=9tvbz8CSI8M">Andrei Alexandrescu - Writing Fast Code II</a> (<a href="http://codedive.pl/wp-content/uploads/2016/01/FastCode-handouts.pdf">slides</a>)</li>
+<li>CppCon 2014 <a href="https://www.youtube.com/watch?v=Qq_WaiwzOtI">Andrei Alexandrescu "Optimization Tips - Mo' Hustle Mo' Problems"</a>
+</li>
+<li>CppCon 2014 <a href="https://www.youtube.com/watch?v=rX0ItVEVjHc">Mike Acton "Data-Oriented Design and C++" </a>
+</li>
+<li>CppCon 2014 <a href="https://www.youtube.com/watch?v=fHNmRkzxHWs">Chandler Carruth "Efficiency with Algorithms, Performance with Data Structures"</a>
+</li>
+<li>CppCon 2015 <a href="https://www.youtube.com/watch?v=nXaxk27zwlk">Chandler Carruth, "Tuning C++: Benchmarks, and CPUs, and Compilers! Oh My!"</a>
+</li>
+<li>CppCon 2015 <a href="https://www.youtube.com/watch?v=zWxSZcpeS8Q">Bryce Adelstein-Lelbach “Benchmarking C++ Code"</a>
+</li>
+<li>Going Native 2013 - <a href="https://www.youtube.com/watch?v=MvFj8qo1iuA">Andrei Alexandrescu, Writing Quick Code in C++, Quickly</a>
+</li>
+<li>Meeting C++ 2015 <a href="https://www.youtube.com/watch?v=FnGCDLhaxKU">Understanding Compiler Optimization - Chandler Carruth - Opening Keynote</a>
+</li>
 </ul>
 
 <h2>
@@ -124,13 +132,27 @@
 <li>Video Game Optimization, Eric Preisz</li>
 <li>Optimized C++: Proven Techniques for Heightened Performance, Kurt Guntheroth</li>
 </ul>
-      </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/fenbf">fenbf</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+
+<h2>
+<a id="about" class="anchor" href="#about" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>About</h2>
+
+<p>This list was started by Bartlomiej Filipek (<a href="https://twitter.com/fenbf">@fenbf</a>). If you like to help please read CONTRIBUTING.md instructions and just make a pull request to this repo.</p>
+
+<h2>
+<a id="license" class="anchor" href="#license" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>License</h2>
+
+<p><a href="http://creativecommons.org/licenses/by/4.0/"><img src="http://i.creativecommons.org/l/by/4.0/88x31.png" alt="Creative Commons License"></a></p>
+
+<p>This work is licensed under a <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/fenbf/AwesomePerfCpp">Awesome Perf Cpp</a> is maintained by <a href="https://github.com/fenbf">fenbf</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
       </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-    
+
+    </section>
+
+  
   </body>
 </html>
