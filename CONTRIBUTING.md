@@ -10,5 +10,6 @@ Please ensure your pull request adheres to the following guidelines:
 * Order projects alphabetically within each category.
 * Check your spelling and grammar.
 * New categories, or improvements to the existing categorisation are welcome.
+* No affiliate links
 
 Thank you for your suggestions!
