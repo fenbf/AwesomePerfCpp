@@ -12,13 +12,16 @@
 
 * ACCU 2016 ['Fastware' - Andrei Alexandrescu](https://www.youtube.com/watch?v=AxnotgLql0k)
 
+
 * C++Now 2016 [Timur Doumler: C++ Performance in Practice: Align, Vectorise, Cache, Jump!](https://www.youtube.com/watch?v=c-hZpChQKe0) ([slides](https://github.com/boostcon/cppnow_presentations_2016/blob/master/03_friday/cpp_performance_in_practice_align_vectorise_cache_jump.pdf))
 * C++Now 2016 [David Stone: Exceptional Performance](https://www.youtube.com/watch?v=0_FQIDEf7_Q)
 * C++Now 2016 [Jason Turner: Practical Performance Practices](https://www.youtube.com/watch?v=lNnBExDoNSQ)
 
+
 * code::dive conference 2014 [Scott Meyers: Cpu Caches and Why You Care](https://www.youtube.com/watch?v=WDIkqP4JbkE)([slides](http://www.aristeia.com/TalkNotes/codedive-CPUCachesHandouts.pdf))
 * code::dive conference 2015 [Andrei Alexandrescu - Writing Fast Code I](https://www.youtube.com/watch?v=vrfYLlR8X8k) ([slides](http://codedive.pl/wp-content/uploads/2016/01/FastCode-handouts.pdf))
 * code::dive conference 2015 [Andrei Alexandrescu - Writing Fast Code II](https://www.youtube.com/watch?v=9tvbz8CSI8M) ([slides](http://codedive.pl/wp-content/uploads/2016/01/FastCode-handouts.pdf))
+
 
 * CppCon 2014 [Andrei Alexandrescu "Optimization Tips - Mo' Hustle Mo' Problems"](https://www.youtube.com/watch?v=Qq_WaiwzOtI)
 * CppCon 2014 [Mike Acton "Data-Oriented Design and C++" ](https://www.youtube.com/watch?v=rX0ItVEVjHc)
@@ -26,10 +29,11 @@
 * CppCon 2015 [Chandler Carruth, "Tuning C++: Benchmarks, and CPUs, and Compilers! Oh My!"](https://www.youtube.com/watch?v=nXaxk27zwlk)
 * CppCon 2015 [Bryce Adelstein-Lelbach “Benchmarking C++ Code"](https://www.youtube.com/watch?v=zWxSZcpeS8Q)
 
+
 * Going Native 2013 - [Andrei Alexandrescu, Writing Quick Code in C++, Quickly](https://www.youtube.com/watch?v=MvFj8qo1iuA)
 
-* Meeting C++ 2015 [Understanding Compiler Optimization - Chandler Carruth - Opening Keynote](https://www.youtube.com/watch?v=FnGCDLhaxKU)
 
+* Meeting C++ 2015 [Understanding Compiler Optimization - Chandler Carruth - Opening Keynote](https://www.youtube.com/watch?v=FnGCDLhaxKU)
 
 ##Articles
  
@@ -40,6 +44,12 @@
 * [ETW Central](https://randomascii.wordpress.com/2015/09/24/etw-central/) - by RandomASCII
 * [Micro benchmarking libraries for C++ ](http://www.bfilipek.com/2016/01/micro-benchmarking-libraries-for-c.html) - on Bartek's blog
 * [How to start with Software Optimization](http://www.bfilipek.com/2014/07/flexible-particle-system-how-to-start.html), from Flexible Particle Experiments series, Bartek's blog.
+* [Taking advantage of cache coherence in your programs](http://supercomputingblog.com/optimization/taking-advantage-of-cache-coherence-in-your-programs/)
+* [Gallery of Processor Cache Effects, C#](http://igoro.com/archive/gallery-of-processor-cache-effects/)
+* [How We Beat C++ STL Binary Search](https://realm.io/news/how-we-beat-cpp-stl-binary-search/)
+* [C++ benchmark – std::vector VS std::list VS std::deque](http://baptiste-wicht.com/posts/2012/12/cpp-benchmark-vector-list-deque.html)
+* [Container Study](http://www.joshbarczak.com/blog/?p=525)
+* [Associative-Container Performance Tests](https://gcc.gnu.org/onlinedocs/libstdc++/ext/pb_ds/assoc_performance_tests.html)
 
 ##Sites/Blogs
 
@@ -48,6 +58,8 @@
 * [The ryg blog](https://fgiesen.wordpress.com/)
 * [Random ASCII](https://randomascii.wordpress.com/)
 * [The Every Computer Performance Blog](https://rwwescott.wordpress.com/)
+* [The Supercomputing Blog](http://supercomputingblog.com/)
+* [Daniel Lemire's blog](http://lemire.me/blog/)
 * [Bartek's programming blog](http://www.bfilipek.com)
 
 ##Tools
@@ -80,6 +92,7 @@
 ##Books
 
 * [PDF: optimizing C++](http://www.agner.org/optimize/optimizing_cpp.pdf) - by Agner Fog. FREE
+* [Optimizing C++, WikiBooks](https://en.wikibooks.org/wiki/Optimizing_C%2B%2B) - FREE
 * The Software Optimization Cookbook: High Performance Recipes for IA-32 Platforms, 2nd Edition
 * Video Game Optimization, Eric Preisz
 * Optimized C++: Proven Techniques for Heightened Performance, Kurt Guntheroth
