@@ -47,6 +47,7 @@
 * [Agner's Software optimization resources](http://www.agner.org/optimize/)
 * [The ryg blog](https://fgiesen.wordpress.com/)
 * [Random ASCII](https://randomascii.wordpress.com/)
+* [The Every Computer Performance Blog](https://rwwescott.wordpress.com/)
 * [Bartek's programming blog](http://www.bfilipek.com)
 
 ##Tools
@@ -82,6 +83,9 @@
 * The Software Optimization Cookbook: High Performance Recipes for IA-32 Platforms, 2nd Edition
 * Video Game Optimization, Eric Preisz
 * Optimized C++: Proven Techniques for Heightened Performance, Kurt Guntheroth
+* Power and Performance: Software Analysis and Optimization, Jim Kukunas
+* Systems Performance: Enterprise and the Cloud, Brendan Gregg 
+* Every Computer Performance Book, Bob Wescott 
 
 ##About
 This list was started by Bartlomiej Filipek ([@fenbf](https://twitter.com/fenbf)). If you like to help please read CONTRIBUTING.md instructions and just make a pull request to this repo.
