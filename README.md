@@ -68,7 +68,6 @@
 * [Valgrind](http://valgrind.org/)
 * [TAU Performance System](http://www.cs.uoregon.edu/research/tau/home.php)
 * [Google Performance Tools (gperftools)](https://github.com/gperftools/gperftools)
-* [GNU GPerf](https://www.gnu.org/software/gperf/)
 * [Linux perf tools](https://perf.wiki.kernel.org/index.php/Tutorial)
 
 ###Paid
