@@ -51,6 +51,9 @@
 * [Container Study](http://www.joshbarczak.com/blog/?p=525)
 * [Associative-Container Performance Tests](https://gcc.gnu.org/onlinedocs/libstdc++/ext/pb_ds/assoc_performance_tests.html)
 * [C++ Core Guidelines, Performance section](http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#S-performance)
+* [C++ Best Practices, Performance section][https://lefticus.gitbooks.io/cpp-best-practices/content/08-Considering_Performance.html]
+* [That’s Not Normal–the Performance of Odd Floats](https://randomascii.wordpress.com/2012/05/20/thats-not-normalthe-performance-of-odd-floats/)
+* [gprof, Valgrind and gperftools – an evaluation of some tools for application level CPU profiling on Linux](http://gernotklingler.com/blog/gprof-valgrind-gperftools-evaluation-tools-application-level-cpu-profiling-linux/)
 
 ##Sites/Blogs
 
@@ -75,6 +78,8 @@
 * [Valgrind](http://valgrind.org/)
 * [TAU Performance System](http://www.cs.uoregon.edu/research/tau/home.php)
 * [Google Performance Tools (gperftools)](https://github.com/gperftools/gperftools)
+* [GNU GPerf](https://www.gnu.org/software/gperf/)
+* [Linux perf tools](https://perf.wiki.kernel.org/index.php/Tutorial)
 
 ###Paid
 
