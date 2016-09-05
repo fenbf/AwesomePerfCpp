@@ -11,28 +11,18 @@
 ##Talks
 
 * ACCU 2016 ['Fastware' - Andrei Alexandrescu](https://www.youtube.com/watch?v=AxnotgLql0k)
-
-
 * C++Now 2016 [Timur Doumler: C++ Performance in Practice: Align, Vectorise, Cache, Jump!](https://www.youtube.com/watch?v=c-hZpChQKe0) ([slides](https://github.com/boostcon/cppnow_presentations_2016/blob/master/03_friday/cpp_performance_in_practice_align_vectorise_cache_jump.pdf))
 * C++Now 2016 [David Stone: Exceptional Performance](https://www.youtube.com/watch?v=0_FQIDEf7_Q)
 * C++Now 2016 [Jason Turner: Practical Performance Practices](https://www.youtube.com/watch?v=lNnBExDoNSQ)
-
-
 * code::dive conference 2014 [Scott Meyers: Cpu Caches and Why You Care](https://www.youtube.com/watch?v=WDIkqP4JbkE)([slides](http://www.aristeia.com/TalkNotes/codedive-CPUCachesHandouts.pdf))
 * code::dive conference 2015 [Andrei Alexandrescu - Writing Fast Code I](https://www.youtube.com/watch?v=vrfYLlR8X8k) ([slides](http://codedive.pl/wp-content/uploads/2016/01/FastCode-handouts.pdf))
 * code::dive conference 2015 [Andrei Alexandrescu - Writing Fast Code II](https://www.youtube.com/watch?v=9tvbz8CSI8M) ([slides](http://codedive.pl/wp-content/uploads/2016/01/FastCode-handouts.pdf))
-
-
 * CppCon 2014 [Andrei Alexandrescu "Optimization Tips - Mo' Hustle Mo' Problems"](https://www.youtube.com/watch?v=Qq_WaiwzOtI)
 * CppCon 2014 [Mike Acton "Data-Oriented Design and C++" ](https://www.youtube.com/watch?v=rX0ItVEVjHc)
 * CppCon 2014 [Chandler Carruth "Efficiency with Algorithms, Performance with Data Structures"](https://www.youtube.com/watch?v=fHNmRkzxHWs)
 * CppCon 2015 [Chandler Carruth, "Tuning C++: Benchmarks, and CPUs, and Compilers! Oh My!"](https://www.youtube.com/watch?v=nXaxk27zwlk)
 * CppCon 2015 [Bryce Adelstein-Lelbach “Benchmarking C++ Code"](https://www.youtube.com/watch?v=zWxSZcpeS8Q)
-
-
 * Going Native 2013 - [Andrei Alexandrescu, Writing Quick Code in C++, Quickly](https://www.youtube.com/watch?v=MvFj8qo1iuA)
-
-
 * Meeting C++ 2015 [Understanding Compiler Optimization - Chandler Carruth - Opening Keynote](https://www.youtube.com/watch?v=FnGCDLhaxKU)
 
 ##Articles
@@ -51,7 +41,7 @@
 * [Container Study](http://www.joshbarczak.com/blog/?p=525)
 * [Associative-Container Performance Tests](https://gcc.gnu.org/onlinedocs/libstdc++/ext/pb_ds/assoc_performance_tests.html)
 * [C++ Core Guidelines, Performance section](http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#S-performance)
-* [C++ Best Practices, Performance section][https://lefticus.gitbooks.io/cpp-best-practices/content/08-Considering_Performance.html]
+* [C++ Best Practices, Performance section](https://lefticus.gitbooks.io/cpp-best-practices/content/08-Considering_Performance.html)
 * [That’s Not Normal–the Performance of Odd Floats](https://randomascii.wordpress.com/2012/05/20/thats-not-normalthe-performance-of-odd-floats/)
 * [gprof, Valgrind and gperftools – an evaluation of some tools for application level CPU profiling on Linux](http://gernotklingler.com/blog/gprof-valgrind-gperftools-evaluation-tools-application-level-cpu-profiling-linux/)
 
