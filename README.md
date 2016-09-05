@@ -50,6 +50,7 @@
 * [C++ benchmark – std::vector VS std::list VS std::deque](http://baptiste-wicht.com/posts/2012/12/cpp-benchmark-vector-list-deque.html)
 * [Container Study](http://www.joshbarczak.com/blog/?p=525)
 * [Associative-Container Performance Tests](https://gcc.gnu.org/onlinedocs/libstdc++/ext/pb_ds/assoc_performance_tests.html)
+* [C++ Core Guidelines, Performance section](http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#S-performance)
 
 ##Sites/Blogs
 
