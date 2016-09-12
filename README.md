@@ -44,6 +44,12 @@
 * [C++ Best Practices, Performance section](https://lefticus.gitbooks.io/cpp-best-practices/content/08-Considering_Performance.html)
 * [That’s Not Normal–the Performance of Odd Floats](https://randomascii.wordpress.com/2012/05/20/thats-not-normalthe-performance-of-odd-floats/)
 * [gprof, Valgrind and gperftools – an evaluation of some tools for application level CPU profiling on Linux](http://gernotklingler.com/blog/gprof-valgrind-gperftools-evaluation-tools-application-level-cpu-profiling-linux/)
+* [The Performance API (PAPI) project](http://icl.cs.utk.edu/papi/overview/index.html)
+* [Roofline Performance Model](https://crd.lbl.gov/departments/computer-science/PAR/research/roofline/)
+
+Manuals:
+
+* [Intel® 64 and IA-32 Architectures Optimization Reference Manual](http://www.intel.com/content/www/us/en/architecture-and-technology/64-ia-32-architectures-optimization-manual.html)
 
 ##Sites/Blogs
 
@@ -69,10 +75,15 @@
 * [TAU Performance System](http://www.cs.uoregon.edu/research/tau/home.php)
 * [Google Performance Tools (gperftools)](https://github.com/gperftools/gperftools)
 * [Linux perf tools](https://perf.wiki.kernel.org/index.php/Tutorial)
+* [NVIDIA Visual Profiler](https://developer.nvidia.com/nvidia-visual-profiler)
+* [Qualcomm Snapdragon Profiler](https://developer.qualcomm.com/software/snapdragon-profiler)
+* [Oracle Solaris Studio Performance Analyzer](http://www.oracle.com/technetwork/server-storage/solarisstudio/features/performance-analyzer-2292312.html)
+* [OProfile](http://oprofile.sourceforge.net/about/) for Linux
 
 ###Paid
 
 * [Intel® VTune™](https://software.intel.com/en-us/intel-vtune-amplifier-xe)
+* [Intel® Vectorization and Threading Advisor](https://software.intel.com/en-us/intel-advisor-xe)
 * [AQtime Pro, from SmartBear](https://smartbear.com/product/aqtime-pro/overview/)
 * [GlowCode](http://www.glowcode.com/summary1_gc.htm)
 
