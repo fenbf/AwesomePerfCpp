@@ -46,6 +46,7 @@
 * [gprof, Valgrind and gperftools – an evaluation of some tools for application level CPU profiling on Linux](http://gernotklingler.com/blog/gprof-valgrind-gperftools-evaluation-tools-application-level-cpu-profiling-linux/)
 * [The Performance API (PAPI) project](http://icl.cs.utk.edu/papi/overview/index.html)
 * [Roofline Performance Model](https://crd.lbl.gov/departments/computer-science/PAR/research/roofline/)
+* [C++ timing strategies compared (in Windows) ](http://baremetalcode.blogspot.com/2011/10/c-timing-strategies-compared-in-windows.html) - from baremetalcode blog.
 
 Manuals:
 
