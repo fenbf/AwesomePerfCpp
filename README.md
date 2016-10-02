@@ -10,20 +10,39 @@
 
 ##Talks
 
+2013:
+
+* Going Native 2013 - [Andrei Alexandrescu, Writing Quick Code in C++, Quickly](https://www.youtube.com/watch?v=MvFj8qo1iuA)
+
+2014:
+
+* code::dive conference 2014 [Scott Meyers: Cpu Caches and Why You Care](https://www.youtube.com/watch?v=WDIkqP4JbkE)([slides](http://www.aristeia.com/TalkNotes/codedive-CPUCachesHandouts.pdf))
+* CppCon 2014 [Andrei Alexandrescu "Optimization Tips - Mo' Hustle Mo' Problems"](https://www.youtube.com/watch?v=Qq_WaiwzOtI)
+* CppCon 2014 [Mike Acton "Data-Oriented Design and C++" ](https://www.youtube.com/watch?v=rX0ItVEVjHc)
+* CppCon 2014 [Chandler Carruth "Efficiency with Algorithms, Performance with Data Structures"](https://www.youtube.com/watch?v=fHNmRkzxHWs)
+
+2015:
+
+* code::dive conference 2015 [Andrei Alexandrescu - Writing Fast Code I](https://www.youtube.com/watch?v=vrfYLlR8X8k) ([slides](http://codedive.pl/wp-content/uploads/2016/01/FastCode-handouts.pdf))
+* code::dive conference 2015 [Andrei Alexandrescu - Writing Fast Code II](https://www.youtube.com/watch?v=9tvbz8CSI8M) ([slides](http://codedive.pl/wp-content/uploads/2016/01/FastCode-handouts.pdf))
+* CppCon 2015 [Chandler Carruth, "Tuning C++: Benchmarks, and CPUs, and Compilers! Oh My!"](https://www.youtube.com/watch?v=nXaxk27zwlk)
+* CppCon 2015 [Bryce Adelstein-Lelbach “Benchmarking C++ Code"](https://www.youtube.com/watch?v=zWxSZcpeS8Q)
+* Meeting C++ 2015 [Understanding Compiler Optimization - Chandler Carruth - Opening Keynote](https://www.youtube.com/watch?v=FnGCDLhaxKU)
+
+2016:
+
 * ACCU 2016 ['Fastware' - Andrei Alexandrescu](https://www.youtube.com/watch?v=AxnotgLql0k)
 * C++Now 2016 [Timur Doumler: C++ Performance in Practice: Align, Vectorise, Cache, Jump!](https://www.youtube.com/watch?v=c-hZpChQKe0) ([slides](https://github.com/boostcon/cppnow_presentations_2016/blob/master/03_friday/cpp_performance_in_practice_align_vectorise_cache_jump.pdf))
 * C++Now 2016 [David Stone: Exceptional Performance](https://www.youtube.com/watch?v=0_FQIDEf7_Q)
 * C++Now 2016 [Jason Turner: Practical Performance Practices](https://www.youtube.com/watch?v=lNnBExDoNSQ)
-* code::dive conference 2014 [Scott Meyers: Cpu Caches and Why You Care](https://www.youtube.com/watch?v=WDIkqP4JbkE)([slides](http://www.aristeia.com/TalkNotes/codedive-CPUCachesHandouts.pdf))
-* code::dive conference 2015 [Andrei Alexandrescu - Writing Fast Code I](https://www.youtube.com/watch?v=vrfYLlR8X8k) ([slides](http://codedive.pl/wp-content/uploads/2016/01/FastCode-handouts.pdf))
-* code::dive conference 2015 [Andrei Alexandrescu - Writing Fast Code II](https://www.youtube.com/watch?v=9tvbz8CSI8M) ([slides](http://codedive.pl/wp-content/uploads/2016/01/FastCode-handouts.pdf))
-* CppCon 2014 [Andrei Alexandrescu "Optimization Tips - Mo' Hustle Mo' Problems"](https://www.youtube.com/watch?v=Qq_WaiwzOtI)
-* CppCon 2014 [Mike Acton "Data-Oriented Design and C++" ](https://www.youtube.com/watch?v=rX0ItVEVjHc)
-* CppCon 2014 [Chandler Carruth "Efficiency with Algorithms, Performance with Data Structures"](https://www.youtube.com/watch?v=fHNmRkzxHWs)
-* CppCon 2015 [Chandler Carruth, "Tuning C++: Benchmarks, and CPUs, and Compilers! Oh My!"](https://www.youtube.com/watch?v=nXaxk27zwlk)
-* CppCon 2015 [Bryce Adelstein-Lelbach “Benchmarking C++ Code"](https://www.youtube.com/watch?v=zWxSZcpeS8Q)
-* Going Native 2013 - [Andrei Alexandrescu, Writing Quick Code in C++, Quickly](https://www.youtube.com/watch?v=MvFj8qo1iuA)
-* Meeting C++ 2015 [Understanding Compiler Optimization - Chandler Carruth - Opening Keynote](https://www.youtube.com/watch?v=FnGCDLhaxKU)
+* CppCon 2016 [Timur Doumler “Want fast C++? Know your hardware!" ](https://www.youtube.com/watch?v=BP6NxVxDQIs)
+* CppCon 2016 [Jason Turner “Practical Performance Practices" ](https://www.youtube.com/watch?v=uzF4u9KgUWI)
+* CppCon 2016 [Chandler Carruth “High Performance Code 201: Hybrid Data Structures" ](https://www.youtube.com/watch?v=vElZc6zSIXM)
+* CppCon 2016 [McKenney “Beyond the Issaquah Challenge: High-Performance Scalable Complex Updates"](https://www.youtube.com/watch?v=qcD2Zj9GgI4)
+* CppCon 2016 [D. Dechev & D. Zhang “High Performance C++ Concurrent Transactional Data Structures"](https://www.youtube.com/watch?v=uDNb8JL0vv8)
+* CppCon 2016 [Matthew Bentley “Colonies, performance and why you should care" ](https://www.youtube.com/watch?v=wBER1R8YyGY)
+* CppCon 2016 [Christiaan Pretorius “Cache Optimized Hash Tables” ](https://www.youtube.com/watch?v=aXj_DsIx1xs)
+* CppCon 2016 [Tim Haines “Improving Performance Through Compiler Switches..." ](https://www.youtube.com/watch?v=w5Z4JlMJ1VQ)
 
 ##Articles
  
