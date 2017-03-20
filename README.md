@@ -67,6 +67,7 @@
 * [The Performance API (PAPI) project](http://icl.cs.utk.edu/papi/overview/index.html)
 * [Roofline Performance Model](https://crd.lbl.gov/departments/computer-science/PAR/research/roofline/)
 * [C++ timing strategies compared (in Windows) ](http://baremetalcode.blogspot.com/2011/10/c-timing-strategies-compared-in-windows.html) - from baremetalcode blog.
+* [Simply about complex - Data Oriented Design by example](https://nikitablack.github.io/2017/02/02/Data-Oriented-Design-by-example.html)
 
 Manuals:
 
