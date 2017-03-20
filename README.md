@@ -1,5 +1,5 @@
 
-##Contents
+## Contents
 * [Talks](#Talks)
 * [Articles](#articles)
 * [Sites/Blogs](#sitesblogs)
@@ -8,12 +8,13 @@
 * [Books](#books)
 * [About](#about)
 
-##Talks
+## Talks
 
 2013:
 
 * Going Native 2013 - [Andrei Alexandrescu, Writing Quick Code in C++, Quickly](https://www.youtube.com/watch?v=MvFj8qo1iuA)
 * Going Native 2013 - [Stephan T. Lavavej, rand() Considered Harmful](https://www.youtube.com/watch?v=LDPMpc-ENqY)
+* Going Native 2013 - [Sean Parent, C++ Seasoning](https://www.youtube.com/watch?v=qH6sSOr-yk8)
 
 2014:
 
@@ -45,7 +46,7 @@
 * CppCon 2016 [Christiaan Pretorius “Cache Optimized Hash Tables” ](https://www.youtube.com/watch?v=aXj_DsIx1xs)
 * CppCon 2016 [Tim Haines “Improving Performance Through Compiler Switches..." ](https://www.youtube.com/watch?v=w5Z4JlMJ1VQ)
 
-##Articles
+## Articles
  
 * [Three Optimization Tips for C++](https://www.facebook.com/notes/facebook-engineering/three-optimization-tips-for-c/10151361643253920/), by Andrei Alexandrescu, @Facebook Engineering
 * [why GNU grep is fast](https://lists.freebsd.org/pipermail/freebsd-current/2010-August/019310.html)
@@ -67,12 +68,13 @@
 * [The Performance API (PAPI) project](http://icl.cs.utk.edu/papi/overview/index.html)
 * [Roofline Performance Model](https://crd.lbl.gov/departments/computer-science/PAR/research/roofline/)
 * [C++ timing strategies compared (in Windows) ](http://baremetalcode.blogspot.com/2011/10/c-timing-strategies-compared-in-windows.html) - from baremetalcode blog.
+* [Simply about complex - Data Oriented Design by example](https://nikitablack.github.io/2017/02/02/Data-Oriented-Design-by-example.html)
 
 Manuals:
 
 * [Intel® 64 and IA-32 Architectures Optimization Reference Manual](http://www.intel.com/content/www/us/en/architecture-and-technology/64-ia-32-architectures-optimization-manual.html)
 
-##Sites/Blogs
+## Sites/Blogs
 
 * [Agner`s CPU blog](http://www.agner.org/optimize/blog/)
 * [Agner's Software optimization resources](http://www.agner.org/optimize/)
@@ -83,9 +85,9 @@ Manuals:
 * [Daniel Lemire's blog](http://lemire.me/blog/)
 * [Bartek's programming blog](http://www.bfilipek.com)
 
-##Tools
+## Tools
 
-###Free
+### Free
 
 * [AMD Code XL](http://developer.amd.com/tools-and-sdks/opencl-zone/codexl/)
 * [Very Sleepy](http://www.codersnotes.com/sleepy/)
@@ -101,7 +103,7 @@ Manuals:
 * [Oracle Solaris Studio Performance Analyzer](http://www.oracle.com/technetwork/server-storage/solarisstudio/features/performance-analyzer-2292312.html)
 * [OProfile](http://oprofile.sourceforge.net/about/) for Linux
 
-###Paid
+### Paid
 
 * [Intel® VTune™](https://software.intel.com/en-us/intel-vtune-amplifier-xe)
 * [Intel® Vectorization and Threading Advisor](https://software.intel.com/en-us/intel-advisor-xe)
@@ -109,14 +111,14 @@ Manuals:
 * [GlowCode](http://www.glowcode.com/summary1_gc.htm)
 
 
-##Libraries
+## Libraries
 
 * [Celero micro-benchmarking library](https://github.com/DigitalInBlue/Celero)
 * [Nonius library](https://nonius.io)
 * [Hayai micro benchmarking library](https://github.com/nickbruun/hayai), [into article](https://bruun.co/2012/02/07/easy-cpp-benchmarking)
 * [Google benchmark library](https://github.com/google/benchmark)
 
-##Books
+## Books
 
 * [PDF: optimizing C++](http://www.agner.org/optimize/optimizing_cpp.pdf) - by Agner Fog. FREE
 * [Optimizing C++, WikiBooks](https://en.wikibooks.org/wiki/Optimizing_C%2B%2B) - FREE
@@ -127,10 +129,10 @@ Manuals:
 * Systems Performance: Enterprise and the Cloud, Brendan Gregg 
 * Every Computer Performance Book, Bob Wescott 
 
-##About
+## About
 This list was started by Bartlomiej Filipek ([@fenbf](https://twitter.com/fenbf)). If you like to help please read CONTRIBUTING.md instructions and just make a pull request to this repo.
 
-##License
+## License
 
 [![Creative Commons License](http://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
 
