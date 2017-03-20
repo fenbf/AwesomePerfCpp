@@ -13,6 +13,7 @@
 2013:
 
 * Going Native 2013 - [Andrei Alexandrescu, Writing Quick Code in C++, Quickly](https://www.youtube.com/watch?v=MvFj8qo1iuA)
+* Going Native 2013 - [Stephan T. Lavavej, rand() Considered Harmful](https://www.youtube.com/watch?v=LDPMpc-ENqY)
 
 2014:
 
