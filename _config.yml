@@ -1,0 +1,8 @@
+title: Awesome Perf Cpp
+description: "A curated list of awesome C/C++ performance resources: talks, articles, books, libraries, tools libraries, sites. Inspired by awesome."
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-cayman
+
+gems:
+  - jekyll-mentions
