@@ -13,6 +13,7 @@
 2013:
 
 * Going Native 2013 - [Andrei Alexandrescu, Writing Quick Code in C++, Quickly](https://www.youtube.com/watch?v=MvFj8qo1iuA)
+* Going Native 2013 - [Sean Parent, C++ Seasoning](https://www.youtube.com/watch?v=qH6sSOr-yk8)
 
 2014:
 
