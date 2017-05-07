@@ -70,6 +70,7 @@
 * [C++ timing strategies compared (in Windows) ](http://baremetalcode.blogspot.com/2011/10/c-timing-strategies-compared-in-windows.html) - from baremetalcode blog.
 * [Simply about complex - Data Oriented Design by example](https://nikitablack.github.io/2017/02/02/Data-Oriented-Design-by-example.html)
 * [Guide into OpenMP: Easy multithreading programming for C++](http://bisqwit.iki.fi/story/howto/openmp/)
+* [C++ Optimization Bibliography - Kurt Guntheroth's](http://oldhandsblog.blogspot.bg/2016/09/c-optimization-bibliography.html)
 
 Manuals:
 
