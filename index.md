@@ -106,6 +106,7 @@ Manuals:
 * [Intel® Vectorization and Threading Advisor](https://software.intel.com/en-us/intel-advisor-xe)
 * [AQtime Pro, from SmartBear](https://smartbear.com/product/aqtime-pro/overview/)
 * [GlowCode](http://www.glowcode.com/summary1_gc.htm)
+* [Deleaker](https://www.deleaker.com)
 
 
 ##Libraries
