@@ -131,6 +131,7 @@ Manuals:
 * Power and Performance: Software Analysis and Optimization, Jim Kukunas
 * Systems Performance: Enterprise and the Cloud, Brendan Gregg 
 * Every Computer Performance Book, Bob Wescott 
+* C++ Concurrency in Action, Second Edition, Anthony Williams
 
 ## About
 This list was started by Bartlomiej Filipek ([@fenbf](https://twitter.com/fenbf)). If you like to help please read CONTRIBUTING.md instructions and just make a pull request to this repo.
