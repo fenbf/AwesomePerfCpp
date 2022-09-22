@@ -57,7 +57,7 @@
 * [How to start with Software Optimization](http://www.bfilipek.com/2014/07/flexible-particle-system-how-to-start.html), from Flexible Particle Experiments series, Bartek's blog.
 * [Taking advantage of cache coherence in your programs](http://supercomputingblog.com/optimization/taking-advantage-of-cache-coherence-in-your-programs/)
 * [Gallery of Processor Cache Effects, C#](http://igoro.com/archive/gallery-of-processor-cache-effects/)
-* [How We Beat C++ STL Binary Search](https://realm.io/news/how-we-beat-cpp-stl-binary-search/)
+* [How We Beat C++ STL Binary Search](https://academy.realm.io/posts/how-we-beat-cpp-stl-binary-search/)
 * [C++ benchmark – std::vector VS std::list VS std::deque](http://baptiste-wicht.com/posts/2012/12/cpp-benchmark-vector-list-deque.html)
 * [Container Study](http://www.joshbarczak.com/blog/?p=525)
 * [Associative-Container Performance Tests](https://gcc.gnu.org/onlinedocs/libstdc++/ext/pb_ds/assoc_performance_tests.html)
