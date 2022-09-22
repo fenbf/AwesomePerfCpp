@@ -12,7 +12,7 @@
 
 2013:
 
-* Going Native 2013 - [Andrei Alexandrescu, Writing Quick Code in C++, Quickly](https://www.youtube.com/watch?v=MvFj8qo1iuA)
+* Going Native 2013 - [Andrei Alexandrescu, Writing Quick Code in C++, Quickly](https://www.youtube.com/watch?v=ea5DiCg8HOY)
 
 2014:
 
