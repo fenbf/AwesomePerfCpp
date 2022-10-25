@@ -87,6 +87,7 @@ Manuals:
 * [Daniel Lemire's blog](http://lemire.me/blog/)
 * [Wojciech Mula's site: 0x80.pl - articles on performance, SIMD](http://0x80.pl/articles/index.html)
 * [Bartek's programming blog](http://www.bfilipek.com)
+* [Programming Community Curated C++ Resources](https://hackr.io/tutorials/learn-c-plus-plus)
 
 ## Tools
 
