@@ -120,6 +120,7 @@ Manuals:
 * [Nonius library](https://nonius.io)
 * [Hayai micro benchmarking library](https://github.com/nickbruun/hayai), [into article](https://bruun.co/2012/02/07/easy-cpp-benchmarking)
 * [Google benchmark library](https://github.com/google/benchmark)
+* [UltrafastSecp256k1](https://github.com/shrec/UltrafastSecp256k1)
 
 ## Books
 
