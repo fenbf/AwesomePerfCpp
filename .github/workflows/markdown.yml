@@ -1,0 +1,44 @@
+name: Markdown and Pages checks
+
+on:
+  pull_request:
+    paths:
+      - '**/*.md'
+      - '*.md'
+      - '_config.yml'
+      - '.markdownlint-cli2.jsonc'
+      - 'scripts/check-docs.mjs'
+      - '.github/workflows/markdown.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  markdown:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - name: Check local navigation and Pages source
+        run: node scripts/check-docs.mjs
+      - name: Check Markdown
+        uses: DavidAnson/markdownlint-cli2-action@05f32210e84442804257b2a6f20b273450ec8265 # v19
+        with:
+          globs: |
+            README.md
+            CONTRIBUTING.md
+            index.md
+            docs/*.md
+            .github/*.md
+  pages:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - name: Build Pages without deploying
+        uses: actions/jekyll-build-pages@44a6e6beabd48582f863aeeb6cb2151cc1716697 # v1

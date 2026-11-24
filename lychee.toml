@@ -1,0 +1,13 @@
+# Advisory checks: do not accept 403/429 as success or disable TLS verification.
+timeout = 30
+max_retries = 2
+retry_wait_time = 5
+max_concurrency = 4
+user_agent = "AwesomePerfCpp link maintenance"
+exclude_all_private = true
+include_mail = false
+include_verbatim = false
+
+# YouTube watch pages return 200 even for missing videos. Recheck video metadata
+# or playback manually; these are deliberately not counted as verified by lychee.
+exclude = ['^https://www\.youtube\.com/watch\?']
