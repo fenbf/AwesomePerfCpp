@@ -20,8 +20,10 @@ existing material. Corrections to old entries are as welcome as new suggestions.
 
 - Use a year only when the source confirms it. Distinguish publication dates from
   update dates; talk years refer to the conference, not the upload.
-- Place articles in the most relevant topic group. Keep tools and sites roughly
-  alphabetical within their groups, and talks grouped by conference year.
+- Place articles in the most relevant topic group. Sort by the latest listed
+  publication, update, or edition year, newest first, with undated entries last.
+- Group talks by conference year, newest first. Keep tools and sites roughly
+  alphabetical within their groups.
 - Add a resource once; Getting Started may link to an essential entry again.
 - No affiliate links, tracking parameters, advertisements, or promotional copy.
 - Do not run scripts from a suggested resource just to verify the link.

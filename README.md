@@ -41,6 +41,7 @@ universal rankings. Historical tools and platform-specific material are marked.
    to connect code and data layout to hardware behavior.
 4. Profile a real application with a [tool for your platform](#tools), then isolate
    a hotspot with [Google Benchmark](https://github.com/google/benchmark).
+   Use [How to microbenchmark](https://abseil.io/fast/75) to choose inputs that exercise the hotspot.
    Keep inputs, optimization flags, and run conditions with the results.
 5. Try the [Performance Ninja exercises](https://github.com/dendibakh/perf-ninja)
    to practice diagnosing bottlenecks.
@@ -51,31 +52,17 @@ Years below identify the conference, not necessarily the video upload date.
 The older talks form the collection's foundation; check their hardware and
 compiler assumptions when applying specific techniques.
 
-### 2021–2025
+### 2025
 
-- CppCon 2021: Fedor Pikus, [Branchless Programming in C++](https://www.youtube.com/watch?v=g-WPhYREFjk) - When removing branches helps, and when prediction or extra work changes the result.
-- CppCon 2024: David Gross, [When Nanoseconds Matter: Ultrafast Trading Systems in C++](https://www.youtube.com/watch?v=sX2nF1fW7kI) - Data structures, communication, and design choices for low latency.
-- CppCon 2025: Vittorio Romeo, [More Speed & Simplicity: Practical Data-Oriented Design in C++](https://www.youtube.com/watch?v=SzjJfKHygaQ) - Designing around data layout and access patterns.
+- CppCon: Vittorio Romeo, [More Speed & Simplicity: Practical Data-Oriented Design in C++](https://www.youtube.com/watch?v=SzjJfKHygaQ) - Designing around data layout and access patterns.
 
-### 2013
+### 2024
 
-- Going Native: Andrei Alexandrescu, [Writing Quick Code in C++, Quickly](https://learn.microsoft.com/en-us/shows/goingnative-2013/writing-quick-code-in-cpp-quickly) - A systematic approach to optimizing real code.
-- Going Native: Stephan T. Lavavej, [rand() Considered Harmful](https://www.youtube.com/watch?v=LDPMpc-ENqY) - Random-number generation, quality, and implementation costs.
-- Going Native: Sean Parent, [C++ Seasoning](https://www.youtube.com/watch?v=qH6sSOr-yk8) - Algorithms and design choices that improve everyday C++ code.
+- CppCon: David Gross, [When Nanoseconds Matter: Ultrafast Trading Systems in C++](https://www.youtube.com/watch?v=sX2nF1fW7kI) - Data structures, communication, and design choices for low latency.
 
-### 2014
+### 2021
 
-- code::dive: Scott Meyers, [CPU Caches and Why You Care](https://www.youtube.com/watch?v=WDIkqP4JbkE) ([slides](https://www.aristeia.com/TalkNotes/codedive-CPUCachesHandouts.pdf)) - A practical introduction to cache-aware programming.
-- CppCon: Andrei Alexandrescu, [Optimization Tips - Mo' Hustle Mo' Problems](https://www.youtube.com/watch?v=Qq_WaiwzOtI) - Measurement and concrete optimization experiments.
-- CppCon: Mike Acton, [Data-Oriented Design and C++](https://www.youtube.com/watch?v=rX0ItVEVjHc) - Organizing data around the transformations a program performs.
-- CppCon: Chandler Carruth, [Efficiency with Algorithms, Performance with Data Structures](https://www.youtube.com/watch?v=fHNmRkzxHWs) - Why algorithmic complexity alone is not enough.
-
-### 2015
-
-- code::dive: Andrei Alexandrescu, [Writing Fast Code I](https://www.youtube.com/watch?v=vrfYLlR8X8k) and [Writing Fast Code II](https://www.youtube.com/watch?v=9tvbz8CSI8M) ([archived slides](https://web.archive.org/web/20160414041329id_/http://codedive.pl/wp-content/uploads/2016/01/FastCode-handouts.pdf)) - A two-part workshop on reasoning about fast code.
-- CppCon: Chandler Carruth, [Tuning C++: Benchmarks, and CPUs, and Compilers! Oh My!](https://www.youtube.com/watch?v=nXaxk27zwlk) - Constructing useful benchmarks and interpreting generated code.
-- CppCon: Bryce Adelstein-Lelbach, [Benchmarking C++ Code](https://www.youtube.com/watch?v=zWxSZcpeS8Q) - Practical microbenchmarking techniques.
-- Meeting C++: Chandler Carruth, [Understanding Compiler Optimization](https://www.youtube.com/watch?v=FnGCDLhaxKU) - Understanding what optimizers can and cannot infer.
+- CppCon: Fedor Pikus, [Branchless Programming in C++](https://www.youtube.com/watch?v=g-WPhYREFjk) - When removing branches helps, and when prediction or extra work changes the result.
 
 ### 2016
 
@@ -92,30 +79,54 @@ compiler assumptions when applying specific techniques.
 - CppCon: Christiaan Pretorius, [Cache Optimized Hash Tables](https://www.youtube.com/watch?v=aXj_DsIx1xs) - Hash-table layout and cache behavior.
 - CppCon: Tim Haines, [Improving Performance Through Compiler Switches](https://www.youtube.com/watch?v=w5Z4JlMJ1VQ) - Investigating build options; validate flags against your compiler version.
 
+### 2015
+
+- code::dive: Andrei Alexandrescu, [Writing Fast Code I](https://www.youtube.com/watch?v=vrfYLlR8X8k) and [Writing Fast Code II](https://www.youtube.com/watch?v=9tvbz8CSI8M) ([archived slides](https://web.archive.org/web/20160414041329id_/http://codedive.pl/wp-content/uploads/2016/01/FastCode-handouts.pdf)) - A two-part workshop on reasoning about fast code.
+- CppCon: Chandler Carruth, [Tuning C++: Benchmarks, and CPUs, and Compilers! Oh My!](https://www.youtube.com/watch?v=nXaxk27zwlk) - Constructing useful benchmarks and interpreting generated code.
+- CppCon: Bryce Adelstein-Lelbach, [Benchmarking C++ Code](https://www.youtube.com/watch?v=zWxSZcpeS8Q) - Practical microbenchmarking techniques.
+- Meeting C++: Chandler Carruth, [Understanding Compiler Optimization](https://www.youtube.com/watch?v=FnGCDLhaxKU) - Understanding what optimizers can and cannot infer.
+
+### 2014
+
+- code::dive: Scott Meyers, [CPU Caches and Why You Care](https://www.youtube.com/watch?v=WDIkqP4JbkE) ([slides](https://www.aristeia.com/TalkNotes/codedive-CPUCachesHandouts.pdf)) - A practical introduction to cache-aware programming.
+- CppCon: Andrei Alexandrescu, [Optimization Tips - Mo' Hustle Mo' Problems](https://www.youtube.com/watch?v=Qq_WaiwzOtI) - Measurement and concrete optimization experiments.
+- CppCon: Mike Acton, [Data-Oriented Design and C++](https://www.youtube.com/watch?v=rX0ItVEVjHc) - Organizing data around the transformations a program performs.
+- CppCon: Chandler Carruth, [Efficiency with Algorithms, Performance with Data Structures](https://www.youtube.com/watch?v=fHNmRkzxHWs) - Why algorithmic complexity alone is not enough.
+
+### 2013
+
+- Going Native: Andrei Alexandrescu, [Writing Quick Code in C++, Quickly](https://learn.microsoft.com/en-us/shows/goingnative-2013/writing-quick-code-in-cpp-quickly) - A systematic approach to optimizing real code.
+- Going Native: Stephan T. Lavavej, [rand() Considered Harmful](https://www.youtube.com/watch?v=LDPMpc-ENqY) - Random-number generation, quality, and implementation costs.
+- Going Native: Sean Parent, [C++ Seasoning](https://www.youtube.com/watch?v=qH6sSOr-yk8) - Algorithms and design choices that improve everyday C++ code.
+
 ## Articles
+
+Within each topic, dated entries appear newest first by publication, update, or edition year.
+Entries without a listed year follow.
 
 ### Measurement and profiling
 
+- [How to microbenchmark](https://abseil.io/fast/75), Chris Kennelly (2023, updated 2025) - Designing a benchmark around a production workload and interpreting its results.
+- [Strobelight: A profiling service built on open source technology](https://engineering.fb.com/2025/01/21/production-engineering/strobelight-a-profiling-service-built-on-open-source-technology/), Meta engineering (2025) - Production profiling, symbolization, and feedback-directed optimization at fleet scale.
+- [Memory Profiling Part 1: Introduction](https://easyperf.net/blog/2024/02/12/Memory-Profiling-Part1), Denis Bakhvalov (2024) - A series on footprint, memory accesses, and hardware-level bottlenecks.
+- [Micro benchmarking libraries for C++](https://www.cppstories.com/2016/01/micro-benchmarking-libraries-for-c/), Bartłomiej Filipek (2016) - Historical comparison; check library activity before choosing a dependency.
+- [gprof, Valgrind and gperftools: an evaluation of CPU profiling tools on Linux](https://web.archive.org/web/20180103184411/http://gernotklingler.com:80/blog/gprof-valgrind-gperftools-evaluation-tools-application-level-cpu-profiling-linux/), Gernot Klingler (2015, archived) - Historical comparison of profiler overhead and functionality.
+- [How to start with Software Optimization](https://www.cppstories.com/2014/07/flexible-particle-system-how-to-start/), Bartłomiej Filipek (2014) - Establishing a baseline and profiling a particle system.
+- [C++ timing strategies compared in Windows](https://baremetalcode.blogspot.com/2011/10/c-timing-strategies-compared-in-windows.html) (2011) - Historical timing experiments; old Windows and hardware assumptions apply.
 - [C++ Core Guidelines: Performance](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#S-performance) - Principles for measuring and improving performance without sacrificing correctness.
 - [C++ Best Practices: Considering Performance](https://github.com/cpp-best-practices/cppbestpractices/blob/master/08-Considering_Performance.md) - Runtime and build-time considerations; some tool examples are historical.
 - [ETW Central](https://randomascii.wordpress.com/2015/09/24/etw-central/), Bruce Dawson - Windows tracing examples and investigations.
-- [Micro benchmarking libraries for C++](https://www.cppstories.com/2016/01/micro-benchmarking-libraries-for-c/), Bartłomiej Filipek (2016) - Historical comparison; check library activity before choosing a dependency.
-- [How to start with Software Optimization](https://www.cppstories.com/2014/07/flexible-particle-system-how-to-start/), Bartłomiej Filipek (2014) - Establishing a baseline and profiling a particle system.
-- [gprof, Valgrind and gperftools: an evaluation of CPU profiling tools on Linux](https://web.archive.org/web/20180103184411/http://gernotklingler.com:80/blog/gprof-valgrind-gperftools-evaluation-tools-application-level-cpu-profiling-linux/), Gernot Klingler (2015, archived) - Historical comparison of profiler overhead and functionality.
-- [Memory Profiling Part 1: Introduction](https://easyperf.net/blog/2024/02/12/Memory-Profiling-Part1), Denis Bakhvalov (2024) - A series on footprint, memory accesses, and hardware-level bottlenecks.
-- [Strobelight: A profiling service built on open source technology](https://engineering.fb.com/2025/01/21/production-engineering/strobelight-a-profiling-service-built-on-open-source-technology/), Meta engineering (2025) - Production profiling, symbolization, and feedback-directed optimization at fleet scale.
-- [C++ timing strategies compared in Windows](https://baremetalcode.blogspot.com/2011/10/c-timing-strategies-compared-in-windows.html) (2011) - Historical timing experiments; old Windows and hardware assumptions apply.
 
 ### CPU architecture, caches, and data layout
 
+- [Data Oriented Design by example](https://nikitablack.github.io/post/data_oriented_design_by_example/), Nikita Black (2017) - Comparing object-oriented and data-oriented layouts in a simulation.
+- [Hash Functions all the way down](https://aras-p.info/blog/2016/08/02/Hash-Functions-all-the-way-down/) and [More Hash Function Tests](https://aras-p.info/blog/2016/08/09/More-Hash-Function-Tests/), Aras Pranckevičius (2016) - Workload-dependent hash-function experiments.
+- [C++ benchmark: std::vector vs std::list vs std::deque](https://baptiste-wicht.com/posts/2012/12/cpp-benchmark-vector-list-deque.html), Baptiste Wicht (2012) - Historical container measurements, not a universal ordering.
+- [Why GNU grep is fast](https://lists.freebsd.org/pipermail/freebsd-current/2010-August/019310.html), Mike Haertel (2010) - Algorithm selection and reducing work in a production utility.
 - [Why do CPUs have multiple cache levels?](https://fgiesen.wordpress.com/2016/08/07/why-do-cpus-have-multiple-cache-levels/), Fabian Giesen - Cache hierarchy, latency, and bandwidth.
 - [Taking advantage of cache coherence in your programs](https://supercomputingblog.com/optimization/taking-advantage-of-cache-coherence-in-your-programs/) - Memory access experiments; distinguish spatial locality from hardware coherence protocols.
 - [Gallery of Processor Cache Effects](https://igoro.com/archive/gallery-of-processor-cache-effects/), Igor Ostrovsky - C# examples illustrating hardware effects that also matter in C and C++.
-- [Data Oriented Design by example](https://nikitablack.github.io/post/data_oriented_design_by_example/), Nikita Black (2017) - Comparing object-oriented and data-oriented layouts in a simulation.
-- [Hash Functions all the way down](https://aras-p.info/blog/2016/08/02/Hash-Functions-all-the-way-down/) and [More Hash Function Tests](https://aras-p.info/blog/2016/08/09/More-Hash-Function-Tests/), Aras Pranckevičius (2016) - Workload-dependent hash-function experiments.
-- [Why GNU grep is fast](https://lists.freebsd.org/pipermail/freebsd-current/2010-August/019310.html), Mike Haertel (2010) - Algorithm selection and reducing work in a production utility.
 - [How We Beat C++ STL Binary Search](https://web.archive.org/web/20170314110727/https://realm.io/news/how-we-beat-cpp-stl-binary-search/), Realm (archived) - A historical search case study; archive replay availability can vary.
-- [C++ benchmark: std::vector vs std::list vs std::deque](https://baptiste-wicht.com/posts/2012/12/cpp-benchmark-vector-list-deque.html), Baptiste Wicht (2012) - Historical container measurements, not a universal ordering.
 - [Container Study](http://www.joshbarczak.com/blog/?p=525), Josh Barczak - Comparing container behavior under particular access patterns.
 - [Associative-container performance tests](https://gcc.gnu.org/onlinedocs/libstdc++/manual/policy_based_data_structures_test.html), GCC libstdc++ - Policy-based data-structure experiments; the benchmark environments are historical.
 - [The Performance API (PAPI)](https://icl.utk.edu/papi/) - Portable access to performance counters; available events depend on the platform.
@@ -125,30 +136,33 @@ compiler assumptions when applying specific techniques.
 
 ### Modern C++ and allocation
 
-- [Three Optimization Tips for C++](https://engineering.fb.com/2013/03/15/developer-tools/three-optimization-tips-for-c/), Andrei Alexandrescu (2013) - Concrete examples of reducing the work an algorithm performs.
-- [Polymorphic Allocators, std::vector Growth and Hacking](https://www.cppstories.com/2020/06/pmr-hacking.html/), Bartłomiej Filipek (2020) - C++17 memory resources, allocation tracing, and container growth.
-- [Three Benchmarks of C++20 Ranges vs Standard Algorithms](https://www.cppstories.com/2022/ranges-perf/), Bartłomiej Filipek (2022) - Comparing composition, temporary objects, and build time on the tested implementations.
-- [C++ String Conversion: Exploring std::from_chars in C++17 to C++26](https://www.cppstories.com/2018/12/fromchars/), Bartłomiej Filipek (updated 2024) - Non-allocating numeric conversion, benchmarks, and later standard changes.
-- [Details of std::mdspan from C++23](https://www.cppstories.com/2025/cpp23_mdspan/), Bartłomiej Filipek (2025) - Non-owning multidimensional views, extents, and layout policies; includes C++26 additions.
 - [C++26: Standard Library Hardening Experiments](https://www.cppstories.com/2026/hardening-experiments/), Bartłomiej Filipek (2026) - Runtime checking and its measured cost; distinguish implementation settings and standard versions.
+- [Details of std::mdspan from C++23](https://www.cppstories.com/2025/cpp23_mdspan/), Bartłomiej Filipek (2025) - Non-owning multidimensional views, extents, and layout policies; includes C++26 additions.
+- [C++ String Conversion: Exploring std::from_chars in C++17 to C++26](https://www.cppstories.com/2018/12/fromchars/), Bartłomiej Filipek (updated 2024) - Non-allocating numeric conversion, benchmarks, and later standard changes.
+- [Three Benchmarks of C++20 Ranges vs Standard Algorithms](https://www.cppstories.com/2022/ranges-perf/), Bartłomiej Filipek (2022) - Comparing composition, temporary objects, and build time on the tested implementations.
+- [Number Parsing at a Gigabyte per Second](https://arxiv.org/abs/2101.11408), Daniel Lemire (2021) - How integer multiplication and precomputed tables speed up correctly rounded decimal-to-floating-point conversion.
+- [Polymorphic Allocators, std::vector Growth and Hacking](https://www.cppstories.com/2020/06/pmr-hacking.html/), Bartłomiej Filipek (2020) - C++17 memory resources, allocation tracing, and container growth.
+- [Three Optimization Tips for C++](https://engineering.fb.com/2013/03/15/developer-tools/three-optimization-tips-for-c/), Andrei Alexandrescu (2013) - Concrete examples of reducing the work an algorithm performs.
 
 ### Concurrency and low latency
 
-- [Correctly implementing a spinlock in C++](https://rigtorp.se/spinlock/), Erik Rigtorp (2020) - Memory ordering and contention costs; use this to understand tradeoffs, not to replace every mutex.
-- [Optimizing a ring buffer for throughput](https://rigtorp.se/ringbuffer/), Erik Rigtorp (2021) - A measured single-producer/single-consumer queue case study with cache-coherence analysis.
 - [Thread Count Scaling Part 1: Introduction](https://easyperf.net/blog/2024/05/10/Thread-Count-Scaling-Part1), Denis Bakhvalov (2024) - A series investigating scaling, SMT, and workload bottlenecks.
+- [Optimizing a ring buffer for throughput](https://rigtorp.se/ringbuffer/), Erik Rigtorp (2021) - A measured single-producer/single-consumer queue case study with cache-coherence analysis.
+- [Correctly implementing a spinlock in C++](https://rigtorp.se/spinlock/), Erik Rigtorp (2020) - Memory ordering and contention costs; use this to understand tradeoffs, not to replace every mutex.
 - [Guide into OpenMP: Easy multithreading programming for C++](https://bisqwit.iki.fi/story/howto/openmp/) - An introductory tutorial; examples reflect older OpenMP versions.
 
 ### Compilers and vectorization
 
+- [Loop Optimizations: taking matters into your hands](https://johnnysswlab.com/loop-optimizations-taking-matters-into-your-hands/), Ivica Bogosavljević (2021) - Worked examples of how function calls and pointer aliasing limit the optimizations a compiler can apply to a loop.
 - [Clang: Profile Guided Optimization](https://clang.llvm.org/docs/UsersManual.html#profile-guided-optimization) - Instrumentation and sampling workflows; train with representative inputs.
 - [ThinLTO](https://clang.llvm.org/docs/ThinLTO.html), Clang - Cross-module optimization with parallel and incremental compilation.
 - [Auto-Vectorization in LLVM](https://llvm.org/docs/Vectorizers.html) - Loop and SLP vectorization, optimization remarks, and reasons vectorization can fail.
 
 ### GPU and heterogeneous computing
 
-- [CUDA C++ Best Practices Guide](https://docs.nvidia.com/cuda/cuda-c-best-practices-guide/), NVIDIA - Profiling, memory transfers, memory access, and kernel optimization.
+- [Kernel Fusion in NVIDIA CUDA: Optimizing Memory Traffic and Launch Overhead](https://developer.nvidia.com/blog/?p=119743), Daniel Rodriguez (2026) - CUDA C++ code and profiler traces show how fusing two kernels eliminates an intermediate array in `sum(abs(x))`.
 - [oneAPI GPU Optimization Guide](https://www.intel.com/content/www/us/en/docs/oneapi/optimization-guide-gpu/2025-2/overview.html), Intel (2025 edition) - SYCL and OpenMP offload, work-group sizing, registers, and host/device coordination.
+- [CUDA C++ Best Practices Guide](https://docs.nvidia.com/cuda/cuda-c-best-practices-guide/), NVIDIA - Profiling, memory transfers, memory access, and kernel optimization.
 
 ## Sites/Blogs
 
@@ -177,7 +191,7 @@ licensing, and supported hardware can change; consult each project's documentati
 - [TAU Performance System](https://www.cs.uoregon.edu/research/tau/home.php) - Profiling and tracing parallel applications.
 - [Tracy](https://github.com/wolfpld/tracy) - Instrumentation and sampling, CPU/GPU timelines, allocations, and lock analysis.
 - [uops.info](https://uops.info/) - Measured x86 instruction latency, throughput, and port usage across microarchitectures.
-- [Very Sleepy](http://www.codersnotes.com/sleepy/) - A sampling profiler for Windows.
+- [Very Sleepy](https://github.com/VerySleepy/verysleepy) - A sampling CPU profiler for Windows.
 - [Visual Studio CPU profiling](https://learn.microsoft.com/en-us/visualstudio/profiling/beginners-guide-to-performance-profiling) - Native-code CPU usage analysis in Visual Studio.
 - [Windows Performance Toolkit](https://learn.microsoft.com/en-us/windows-hardware/test/wpt/) - Windows Performance Recorder and Analyzer for ETW-based investigations.
 
@@ -197,8 +211,8 @@ licensing, and supported hardware can change; consult each project's documentati
 
 ### Historical and specialized tools
 
-- [AMD CodeXL](https://github.com/GPUOpen-Archive/CodeXL) - Retired; source retained for historical reference. Start with current AMD tools for new investigations.
-- [AQTime documentation](https://support.smartbear.com/aqtime/docs/) - Legacy native-code profiler documentation; not a recommendation of current product availability.
+- [AMD CodeXL](https://github.com/GPUOpen-Archive/CodeXL) - AMD archived the source in April 2020. For CPU profiling, see [AMD uProf](https://www.amd.com/en/developer/uprof.html). For GPU frame profiling, see [Radeon GPU Profiler](https://gpuopen.com/rgp/).
+- [AQTime documentation](https://support.smartbear.com/aqtime/docs/) - Legacy native-code profiler. SmartBear [discontinued support and announced the end of access after June 30, 2026](https://support.smartbear.com/testcomplete/docs/other-tools/aqtime.html).
 - [GlowCode](http://www.glowcode.com/summary1_gc.htm) - Windows profiling and leak detection; verify compatibility with your compiler and OS.
 - [OProfile](http://oprofile.sourceforge.net/about/) - Historical Linux system profiler; automated access may encounter a bot challenge.
 - [Oracle Developer Studio](https://www.oracle.com/application-development/technologies/developerstudio-features.html) - Specialized tooling including Performance Analyzer for supported Oracle platforms.
